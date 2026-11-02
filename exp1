@@ -1,0 +1,42 @@
+# Experiment 01 – Tooling and Machine Operations
+
+## Student Details
+
+**Student 1:** Anshika Dora  
+**Registration Number:** 2502190016
+
+**Student 2:** Shreeya Routray  
+**Registration Number:** 2502190005
+
+## Job A – Name Plate
+
+Scratch Project: https://scratch.mit.edu/projects/1365018591/
+
+## Job B – Machine Cycle
+
+Scratch Project: https://scratch.mit.edu/projects/1365023151/
+
+## Job C – Production Counter
+
+### Python Equivalent
+
+```python
+accepted = 0
+rejected = 0
+
+for i in range(10):
+    result = input("Enter result (yes/no): ").lower()
+
+    if result == "yes":
+        accepted += 1
+    else:
+        rejected += 1
+
+print("Accepted:", accepted)
+print("Rejected:", rejected)
+print("Acceptance percentage:", accepted / 10 * 100, "%")
+```
+
+## Scratch Class Studio
+
+https://scratch.mit.edu/studios/51844452/
